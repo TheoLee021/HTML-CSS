@@ -1,0 +1,9 @@
+.screen-header {
+    padding: var(--horizontal-space);
+    align-items: center;
+}
+.screen-header__icons {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}

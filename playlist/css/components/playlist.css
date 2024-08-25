@@ -1,0 +1,32 @@
+.playlist {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    justify-content: space-between;
+}
+.playlist__column {
+    display: flex;
+    align-items: center;
+}
+.playlist__cover {
+    border-radius: 30%;
+    height: 50px;
+    width: 50px;
+}
+.playlist__info {
+    margin-left: 15px;
+}
+.playlist__singer {
+    display: flex;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.plylist__title {
+    font-size: 15px;
+    font-weight: 600;
+}
+.playlist__moreinfo {
+    color: rgba(0, 0, 0, 0.4);
+}
