@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Colors</title>
+        <style>
+            header {
+                margin-bottom: 20px;
+                font-weight: bold;
+                display: flex;
+                justify-content: center;
+                background-color: whitesmoke;
+            }
+            body {
+                height: 140vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: whitesmoke;
+            }
+            main {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                max-width: 500px;
+            }
+            div {
+                height: 400px;
+                width: 200px;
+                border: 4px solid white;
+            }
+            div:first-child {
+                background-color: tomato;
+            }
+            div:nth-child(2) {
+                background-color: teal;
+            }
+            div:nth-child(3) {
+                background-color: burlywood;
+            }
+            div:last-child {
+                background-color: thistle;
+            }
+            div > div {
+                height: 20px;
+            }
+            div:nth-child(2) > div {
+                background-color: teal;
+            }
+            div:nth-child(3) > div {
+                background-color: burlywood;
+            }
+            div:nth-child(4) > div {
+                background-color: thistle;
+            }
+            p {
+                display: flex;
+                height: 50px;
+                margin: 0px;
+                padding-top: 10px;
+                padding-left: 10px;
+                text-align: center;
+                background-color: white;
+                font-weight: bold;
+            }
+            p:nth-child(2) {
+                margin: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>The Best Colors</h1>
+        </header>
+        <main>
+            <div>
+                <div></div>
+                <p>Tomato</p>
+                <p>#FF6347</p>
+            </div>
+            <div>
+                <div></div>
+                <p>Teal</p>
+                <p>#008080</p>
+            </div>
+            <div>
+                <div></div>
+                <p>Burlywood</p>
+                <p>#DEB887</p>
+            </div>
+            <div>
+                <div></div>
+                <p>Thistle</p>
+                <p>#D7BFD7</p>
+            </div>    
+        </main>
+    </body>
+</html>
