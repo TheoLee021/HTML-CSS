@@ -1,0 +1,33 @@
+.control-box {
+    height: 65px;
+    width: 330px;
+    background-color: rgba(0, 0, 0, 0.87);
+    border-radius: 40px;
+    position: relative;
+    left: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.control-box__info {
+    margin-left: 30px;
+}
+.control-box__icons {
+    width: 100px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.control-box__info h5 {
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+}
+.control-box__info h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
