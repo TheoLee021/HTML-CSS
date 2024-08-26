@@ -3,6 +3,7 @@
     align-items: center;
 }
 .screen-header__icons {
+    margin-top: 10px;
     padding-top: 10px;
     display: flex;
     justify-content: space-between;

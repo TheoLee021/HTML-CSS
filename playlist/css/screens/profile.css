@@ -30,7 +30,7 @@
 .profile__info__play {
     height: 40px;
     width: 110px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.87);
     border-radius: 30px;
     display: flex;
     align-items: center;
@@ -39,6 +39,7 @@
 }
 .profile__info__play span {
     font-size: 15px;
+    font-weight: 450;
     color: rgba(255, 255, 255, 0.9);
 }
 .profile__info__like {
@@ -53,8 +54,10 @@
 }
 .profile__info__like i {
     margin-right: 5px;
+    color: rgba(0, 0, 0, 0.87);
 }
 .profile__info__like span {
     color: rgba(0, 0, 0, 0.3);
     font-size: 15px;
+    font-weight: 500;
 }
