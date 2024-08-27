@@ -36,11 +36,15 @@
     align-items: center;
     justify-content: center;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    border-color: rgba(0, 0, 0, 0.6);
 }
 .profile__info__play span {
     font-size: 15px;
     font-weight: 450;
     color: rgba(255, 255, 255, 0.9);
+}
+.profile__info__play span:hover {
+    color: white
 }
 .profile__info__like {
     display: flex;
@@ -51,6 +55,7 @@
     border-radius: 30px;
     background-color: white;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    border-color: rgba(255, 255, 255, 0);
 }
 .profile__info__like i {
     margin-right: 5px;
