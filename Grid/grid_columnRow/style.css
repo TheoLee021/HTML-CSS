@@ -6,4 +6,9 @@
 }
 .child {
     background-color: teal;
+    display: flex;
+    color: white;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
 }
