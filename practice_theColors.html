@@ -28,6 +28,7 @@
                 height: 400px;
                 width: 200px;
                 border: 4px solid white;
+                position: relative;
             }
             div:first-child {
                 background-color: tomato;
@@ -43,6 +44,7 @@
             }
             div > div {
                 height: 20px;
+                border: 0;
             }
             div:nth-child(2) > div {
                 background-color: teal;
@@ -54,17 +56,23 @@
                 background-color: thistle;
             }
             p {
-                display: flex;
+                position: absolute;
+                width: 100%;
                 height: 50px;
-                margin: 0px;
+                margin: 0;
                 padding-top: 10px;
                 padding-left: 10px;
-                text-align: center;
                 background-color: white;
                 font-weight: bold;
+                font-size: 1.2em;
+                box-sizing: border-box;
             }
-            p:nth-child(2) {
-                margin: 0px;
+            div > p:nth-child(2) {
+                top: 20px;
+                padding-top: 20px;
+            }
+            div > p:nth-child(3) {
+                top: 70px;
             }
         </style>
     </head>
