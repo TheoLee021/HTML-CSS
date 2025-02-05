@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist</title>
+    <style>
+        html {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #F2F2F4;
+        }
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 10px;
+            min-height: 750px;
+            width: 340px;
+            background-color: white;
+            border: 5px solid teal;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            margin: 30px 0 5px 10px;
+        }
+        .header__column {
+            width: 33%;
+        }
+        .header__column:nth-child(2) {
+            display: flex;
+            justify-content: center;
+        }
+        .header__column:nth-child(2) h1 {
+            font-size: x-large;
+            font-weight: 800;
+        }
+        .header__close-button {
+            display: flex;
+            justify-content: flex-start;
+        }
+        .close-button {
+            background: none;
+            border: none;
+            font-size: 30px;
+            font-weight: 800;
+            cursor: pointer;
+        }
+        .playlist-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .playlist-info__cover {
+            height: 115px;
+            width: 115px;
+            margin: 10px;
+            background-color: gold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+            border-radius: 15px;
+        }
+        .playlist-info__details {
+            max-width: 180px;
+        }
+        .playlist-info__details h1 {
+            font-size: 40px;
+            font-weight: 800;
+            margin-bottom: 0px;
+            margin-left: 5px;
+        }
+        .playlist-info__details p {
+            font-weight: bold;
+            margin: 5px 0px 30px 5px;
+        }
+        .controls {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 310px;
+            margin-left: 10px;
+            margin-bottom: 20px;
+        }
+        .controls__play-button {
+            height: 56px;
+            width: 160px;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 15px;
+            box-shadow: 0px 3px 0px rgba(0, 0, 0, 1);
+            font-size: large;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .controls__play-button .fa-play {
+            margin: 0px 5px;
+        }
+        .controls__like-button {
+            height: 55px;
+            width: 55px;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 50%;
+            box-shadow: 0px 3px 0px rgba(0, 0, 0, 1);
+            font-size: x-large;
+            cursor: pointer;
+        }
+        .controls__add-button {
+            height: 55px;
+            width: 55px;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 50%;
+            box-shadow: 0px 3px 0px rgba(0, 0, 0, 1);
+            font-size: x-large;
+            cursor: pointer;
+        }
+        .songs__song {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .songs__song:last-child {
+            margin-bottom: 0px;
+        }
+        .song-cover {
+            height: 50px;
+            width: 50px;
+            background-color: tomato;
+            border-radius: 15px;
+            border: 2px solid black;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .songs__song:nth-child(2) .song-cover {
+            background-color: #FE89BB;
+        }
+        .songs__song:nth-child(3) .song-cover {
+            background-color: #1947E4;
+        }
+        .songs__song:nth-child(4) .song-cover {
+            background-color: #00C6AC;
+        }
+        .song-details h3 {
+            margin-top: 15px;
+            margin-bottom: 5px;
+            font-size: 22px;
+        }
+        .song-details p {
+            margin-top: 0px;
+            color:rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header__column">
+            <button class="close-button">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <div class="header__column">
+            <h1>Playlist</h1>
+        </div>
+    </div>
+    <div class="playlist-info">
+        <div class="playlist-info__cover">
+            <i class="fa-regular fa-image fa-2xl" style="color: #ffffff;"></i>
+        </div>
+        <div class="playlist-info__details">
+            <h1>Random Love</h1>
+            <p>by Divay Kapoor</p>
+        </div>
+    </div>
+    <div class="controls">
+        <button class="controls__play-button">
+            <i class="fa-solid fa-play"></i>
+            Play
+        </button>
+        <button class="controls__like-button">
+            <i class="fa-regular fa-heart"></i>
+        </button>
+        <button class="controls__add-button">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+    </div>
+    <div class="songs">
+        <div class="songs__song">
+            <div class="song-cover"></div>
+            <div class="song-details">
+                <h3>Matargasti</h3>
+                <p>Mohit Chauhan</p>
+            </div>
+        </div>
+        <div class="songs__song">
+            <div class="song-cover"></div>
+            <div class="song-details">
+                <h3>Attitude</h3>
+                <p>Lewis OfMan ∙ Attitude</p>
+            </div>
+        </div>
+        <div class="songs__song">
+            <div class="song-cover"></div>
+            <div class="song-details">
+                <h3>Try Everything</h3>
+                <p>Shakira ∙ Zootopia</p>
+            </div>
+        </div>
+        <div class="songs__song">
+            <div class="song-cover"></div>
+            <div class="song-details">
+                <h3>Sunflower</h3>
+                <p>Joseph Vincent ∙ Sunflower</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/b3f4de9307.js" 
+    crossorigin="anonymous"
+    ></script>
+</body>
+</html>
