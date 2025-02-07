@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: space-between;
     color: white;
+    margin-top: 10px;
 }
 .control-box__info {
     margin-left: 30px;
@@ -21,6 +22,9 @@
     align-items: center;
     justify-content: space-between;
 }
+.control-box__icons i {
+    cursor: pointer;
+}
 .control-box__info h5 {
     margin-bottom: 10px;
     font-size: 13px;
@@ -30,4 +34,33 @@
 .control-box__info h4 {
     font-size: 16px;
     font-weight: 600;
+}
+.control-box-album {
+    height: 65px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.control-box-album i {
+    cursor: pointer;
+}
+.control-box-album__play {
+    height: 60px;
+    width: 60px;
+    background-color: rgba(0, 0, 0, 0.87);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.control-box-album__play i {
+    font-size: 20px;
+    color: white;
+}
+.fa-rotate, .fa-shuffle {
+    color: rgba(0, 0, 0, 0.3);
 }

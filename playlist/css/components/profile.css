@@ -25,9 +25,9 @@
     align-items: center;
     justify-content: space-between;
     width: 230px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
-.profile__info__play {
+.profile__info__shuffle {
     height: 40px;
     width: 110px;
     background-color: rgba(0, 0, 0, 0.87);
@@ -37,13 +37,14 @@
     justify-content: center;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
     border-color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
 }
-.profile__info__play span {
+.profile__info__shuffle span {
     font-size: 15px;
     font-weight: 450;
     color: rgba(255, 255, 255, 0.9);
 }
-.profile__info__play span:hover {
+.profile__info__shuffle span:hover {
     color: white
 }
 .profile__info__like {
@@ -56,6 +57,7 @@
     background-color: white;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
     border-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
 }
 .profile__info__like i {
     margin-right: 5px;

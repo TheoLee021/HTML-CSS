@@ -7,99 +7,142 @@
     <title>Playlist</title>
 </head>
 <body>
-    <header class="screen-header">
-        <div class="screen-header__icons">
-            <div><i class="fa-solid fa-arrow-left"></i></div>
-            <div><i class="fa-solid fa-magnifying-glass"></i></div>
-        </div>
-    </header>
-    
-    <div class="profile">
-        <img 
-            src="img/KimNaYoung.jpg"
-            class="profile__photo" />
-        <h1>Kim Na Young</h1>
-        <h6>K-pop</h6>
-        <div class="profile__info">
-            <button class="profile__info__play">
-                <span>Play</span>
-            </button>
-            <button class="profile__info__like">
-                <i class="fa-solid fa-heart"></i>
-                <span>212 971</span>
-            </button>
-        </div>
-    </div>
-
-    <div class="playlist">
-        <div class="playlist__column">
-            <img 
-                src="img/Emotion.jpeg"
-                class="playlist__cover" />
-            <div class="playlist__info">
-                <span class="playlist__singer">Jung Key</span>
-                <h6 class="plylist__title">홀로 (Feat. 김나영)</h6>
+    <div class="playlist-container">
+        <header class="screen-header">
+            <div class="screen-header__icons">
+                <button class="icon-button">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button class="icon-button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </header>
+        
+        <div class="profile">
+            <img src="img/KimNaYoung.jpg" class="profile__photo" />
+            <h1>Kim Na Young</h1>
+            <h6>K-pop</h6>
+            <div class="profile__info">
+                <button class="profile__info__shuffle">
+                    <span>Shuffle</span>
+                </button>
+                <button class="profile__info__like">
+                    <i class="fa-solid fa-heart"></i>
+                    <span>212 971</span>
+                </button>
             </div>
         </div>
-        <div class="playlist__moreinfo">
-            <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
-        </div>
-    </div>
 
-    <div class="playlist">
-        <div class="playlist__column">
-            <img 
-                src="img/KimNaYoung_album_1.jpeg"
-                class="playlist__cover" />
-            <div class="playlist__info">
-                <span class="playlist__singer">Kim Na Young</span>
-                <h6 class="plylist__title">솔직하게 말해서 나</h6>
+        <div class="playlist">
+            <div class="playlist__column">
+                <img 
+                    src="img/Emotion.jpeg"
+                    class="playlist__cover" />
+                <div class="playlist__info">
+                    <span class="playlist__singer">Jung Key</span>
+                    <h6 class="plylist__title">홀로 (Feat. 김나영)</h6>
+                </div>
+            </div>
+            <div class="playlist__moreinfo">
+                <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
             </div>
         </div>
-        <div class="playlist__moreinfo">
-            <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
-        </div>
-    </div>
 
-    <div class="playlist">
-        <div class="playlist__column">
-            <img 
-                src="img/KimNaYoung_album_2.jpeg"
-                class="playlist__cover" />
-            <div class="playlist__info">
-                <span class="playlist__singer">Kim Na Young</span>
-                <h6 class="plylist__title">어쩔 수가 없나 봐</h6>
+        <div class="playlist">
+            <div class="playlist__column">
+                <img 
+                    src="img/KimNaYoung_album_1.jpeg"
+                    class="playlist__cover" />
+                <div class="playlist__info">
+                    <span class="playlist__singer">Kim Na Young</span>
+                    <h6 class="plylist__title">솔직하게 말해서 나</h6>
+                </div>
+            </div>
+            <div class="playlist__moreinfo">
+                <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
             </div>
         </div>
-        <div class="playlist__moreinfo">
-            <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
-        </div>
-    </div>
 
-    <div class="playlist">
-        <div class="playlist__column">
-            <img 
-                src="img/KimNaYoung_album_3.jpeg"
-                class="playlist__cover" />
-            <div class="playlist__info">
-                <span class="playlist__singer">Kim Na Young</span>
-                <h6 class="plylist__title">봄 내음보다 너를</h6>
+        <div class="playlist">
+            <div class="playlist__column">
+                <img 
+                    src="img/KimNaYoung_album_2.jpeg"
+                    class="playlist__cover" />
+                <div class="playlist__info">
+                    <span class="playlist__singer">Kim Na Young</span>
+                    <h6 class="plylist__title">어쩔 수가 없나 봐</h6>
+                </div>
+            </div>
+            <div class="playlist__moreinfo">
+                <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
             </div>
         </div>
-        <div class="playlist__moreinfo">
-            <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+
+        <div class="playlist">
+            <div class="playlist__column">
+                <img 
+                    src="img/KimNaYoung_album_3.jpeg"
+                    class="playlist__cover" />
+                <div class="playlist__info">
+                    <span class="playlist__singer">Kim Na Young</span>
+                    <h6 class="plylist__title">봄 내음보다 너를</h6>
+                </div>
+            </div>
+            <div class="playlist__moreinfo">
+                <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+            </div>
+        </div>
+
+        <div class="control-box">
+            <div class="control-box__info">
+                <h5>Kim Na Young</h5>
+                <h4>어쩔 수가 없나 봐</h4>
+            </div>
+            <div class="control-box__icons">
+                <i class="fa-solid fa-backward-step"></i>
+                <i class="fa-solid fa-play fa-lg"></i>
+                <i class="fa-solid fa-forward-step"></i>
+            </div>
         </div>
     </div>
 
-    <div class="control-box">
-        <div class="control-box__info">
-            <h5>Kim Na Young</h5>
-            <h4>어쩔 수가 없나 봐</h4>
+    <div class="playlist-container">
+        <header class="screen-header">
+            <div class="screen-header__icons">
+                <button class="icon-button">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button class="icon-button">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
+            </div>
+        </header>
+        
+        <div class="album">
+            <img src="https://m.media-amazon.com/images/I/41NYQFREItL._UX716_FMwebp_QL85_.jpg" class="album__cover" />
+            <h1>어쩔 수가 없나 봐</h1>
+            <h6>Kim Na Young</h6>
         </div>
-        <div class="control-box__icons">
+
+        <div class="progress">
+            <div class="progress__time">
+                <span>1:57</span>
+                <span>3:44</span>
+            </div>
+            <div class="progress__bar">
+                <div class="progress__bar__current"></div>
+            </div>
+        </div>
+
+        <div class="control-box-album">
+            <i class="fa-solid fa-rotate"></i>
             <i class="fa-solid fa-backward-step"></i>
-            <i class="fa-solid fa-play fa-lg"></i>
+            <div class="control-box-album__play">
+                <i class="fa-solid fa-play"></i>
+            </div>
             <i class="fa-solid fa-forward-step"></i>
+            <i class="fa-solid fa-shuffle"></i>
         </div>
     </div>
 
